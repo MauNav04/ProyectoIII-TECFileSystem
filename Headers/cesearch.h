@@ -22,6 +22,9 @@ public:
 
     ~cesearch() override;
 
+private slots:
+    void on_OpenFile_clicked();
+
 private:
     Ui::cesearch *ui;
     ConnectionManager connManager;
